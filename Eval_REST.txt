@@ -1,0 +1,27 @@
+1) Donner 5 verbes HTTP et expliquer leur utilité
+	GET
+	-> Sert à récupérer une donnée ou un ensembles de données depuis le serveur.
+
+	POST
+	->Sert à envoyer une ou plusieurs données vers le serveur.
+
+	PUT
+	->Remplace la ou les données pré-existantes par le contenu de la requête.
+
+	DELETE
+	->Supprime la ou les données ciblées.
+
+	HEAD
+	-> Même chose que pour le GET mais on récupère uniquement l'en-tête de la réponse.
+
+2) Donnez les composants d’une requête HTTP
+	Une requête HTTP est composée de:
+	- la ligne de requête (méthode, url et version du protocole du client)
+	- l'en tête de la requête
+	- le corps de la requête (contenant les potentielles données envoyées par exemple avec POST)
+
+3) Donnez les composants d’une réponse HTTP
+	Une réponse HTTP est composée de:
+	- son statut (version du protocole, code statut et sa signification)
+	- l'en tête de la réponse
+	- le corps de la réponse (contenant les données demandées)
